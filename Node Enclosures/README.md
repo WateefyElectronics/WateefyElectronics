@@ -26,7 +26,7 @@ store, either bundled with a controller or on their own for anyone without a pri
 | **Dimensions (L × W × H)** | 187 × 153 × 46 mm | 275 × 175 × 91 mm | 275 × 175 × 99 mm |
 | **Power input** | 1 × PG9 gland | 1 × PG9 gland | 1 × PG9 gland |
 | **Pixel outputs** | 8 × PG7 glands | 8 × PG7 glands | 8 × PG7 glands |
-| **Optional fan (5 V)** | 30 × 10 mm | 30 × 10 mm or 40 × 10 mm | 30 × 10 mm or 40 × 10 mm |
+| **Fan mount (optional 5 V fan)** | 3010 holes printed in | 3010 / 4010 holes printed in | 3010 / 4010 holes printed in |
 | **Venting** | Shrouded vents | Shrouded vents | Shrouded vents |
 | **PSU rail mounts** | — | Printable, included | Printable, included |
 | **Lid** | Included | Included | Included |
@@ -37,8 +37,9 @@ store, either bundled with a controller or on their own for anyone without a pri
 
 - **Fasteners:** M4 self-tapping screws throughout.
 - **Glands:** 1 × PG9 for power in, 8 × PG7 for the pixel runs, one gland per channel.
-- **Fan:** optional 5 V fan behind a printed vent shroud. The shrouds stay in place with or
-  without a fan.
+- **Fan:** mounting holes for the fan are designed into the print: 3010 on the Aegis, 3010 or 4010
+  on the Bastion and Citadel. The fan itself is optional, 5 V, and sits behind a printed vent
+  shroud. The shrouds stay in place with or without a fan.
 - **Ethernet (NODE Backbone):** no Ethernet hole is pre-cut. Drill one for an M25 gland, or
   whatever size your cable and jack need.
 
@@ -58,7 +59,7 @@ comes from a supply mounted elsewhere.
 | | |
 |---|---|
 | Dimensions | 187 × 153 × 46 mm (L × W × H) |
-| Fan | Optional 5 V, 30 × 10 mm |
+| Fan | 3010 mounting holes printed in; 5 V fan optional |
 | Files | [`Aegis/`](./Aegis/) |
 
 ---
@@ -78,7 +79,7 @@ printable rails with the NODE board above it.
 |---|---|
 | Dimensions | 275 × 175 × 91 mm (L × W × H) |
 | PSU | Mean Well LRS-350, on included printable rail mounts |
-| Fan | Optional 5 V, 30 × 10 mm or 40 × 10 mm |
+| Fan | 3010 / 4010 mounting holes printed in; 5 V fan optional |
 | Files | [`Bastion 350/`](./Bastion%20350/) |
 
 ---
@@ -96,7 +97,7 @@ The large one. Same footprint as the Bastion, but taller to clear the **Mean Wel
 |---|---|
 | Dimensions | 275 × 175 × 99 mm (L × W × H) |
 | PSU | Mean Well LRS-600, on included printable rail mounts |
-| Fan | Optional 5 V, 30 × 10 mm or 40 × 10 mm |
+| Fan | 3010 / 4010 mounting holes printed in; 5 V fan optional |
 | Files | [`Citadel 600/`](./Citadel%20600/) |
 
 ---
