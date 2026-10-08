@@ -38,12 +38,22 @@ store, either bundled with a controller or on their own for anyone without a pri
 - **Fasteners (not included):** every screw hole is printed with an M4 thread. Printed threads
   vary with printer accuracy, so use M4 self-tapping screws. Recommended lengths are 6 mm for
   the lid, and 4 mm for the NODE controller and the PSU rails.
+- **Lid seal:** the top edge of the shell is stepped. A raised inner lip, about 1 mm wide and
+  1.5 mm tall, runs inside the ring of screw holes and seats into a matching groove in the lid.
+  The screw holes sit outside that lip, so water coming through a screw hole (loose, stripped
+  or missing screw) can't get past the lid joint into the enclosure.
 - **Glands:** 1 × PG9 for power in, 8 × PG7 for the pixel runs, one gland per channel.
 - **Fan:** mounting holes for the fan are designed into the print: 3010 on the Aegis, 3010 or 4010
   on the Bastion and Citadel. The fan itself is optional, 5 V, and sits behind a printed vent
   shroud. The shrouds stay in place with or without a fan.
 - **Ethernet (NODE Backbone, or NODE Flex with an Olimex or ETH01 module):** no Ethernet hole is pre-cut. Drill one for an M25 gland, or
   whatever size your cable and jack need.
+
+<p align="center">
+  <img src="./images/lid-seal-groove.png" alt="Lid underside: groove that receives the shell's inner lip" width="45%">
+  <img src="./images/lid-seal-lip.png" alt="Shell top edge: raised inner lip inside the screw holes" width="45%">
+</p>
+<p align="center"><em>Lid seal. Left: groove in the lid. Right: inner lip on the shell, inside the screw holes.</em></p>
 
 ---
 
@@ -75,6 +85,7 @@ printable rails with the NODE board above it.
   <img src="./Bastion%20350/images/bastion-350-loaded.png" alt="NODE Bastion 350 with controller and PSU" width="32%">
   <img src="./Bastion%20350/images/bastion-350-bare-lid.png" alt="NODE Bastion 350 shell, PSU rails and lid" width="32%">
   <img src="./Bastion%20350/images/bastion-350-closed.png" alt="NODE Bastion 350, lid on" width="32%">
+  <img src="./Bastion%20350/images/bastion-350-loaded-lid.png" alt="NODE Bastion 350 loaded, lid alongside" width="32%">
 </p>
 
 | | |
@@ -91,8 +102,9 @@ printable rails with the NODE board above it.
 The large one. Same footprint as the Bastion, but taller to clear the **Mean Well LRS-600**.
 
 <p align="center">
-  <img src="./Citadel%20600/images/citadel-600-loaded.png" alt="NODE Citadel 600 with controller and PSU" width="45%">
-  <img src="./Citadel%20600/images/citadel-600-bare.png" alt="NODE Citadel 600, empty shell" width="45%">
+  <img src="./Citadel%20600/images/citadel-600-loaded.png" alt="NODE Citadel 600 with controller and PSU" width="32%">
+  <img src="./Citadel%20600/images/citadel-600-bare.png" alt="NODE Citadel 600, empty shell" width="32%">
+  <img src="./Citadel%20600/images/citadel-600-bare-top.png" alt="NODE Citadel 600, top view with PSU rails" width="32%">
 </p>
 
 | | |
