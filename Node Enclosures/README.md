@@ -42,7 +42,7 @@ store, either bundled with a controller or on their own for anyone without a pri
 - **Fan:** mounting holes for the fan are designed into the print: 3010 on the Aegis, 3010 or 4010
   on the Bastion and Citadel. The fan itself is optional, 5 V, and sits behind a printed vent
   shroud. The shrouds stay in place with or without a fan.
-- **Ethernet (NODE Backbone):** no Ethernet hole is pre-cut. Drill one for an M25 gland, or
+- **Ethernet (NODE Backbone, or NODE Flex with an Olimex or ETH01 module):** no Ethernet hole is pre-cut. Drill one for an M25 gland, or
   whatever size your cable and jack need.
 
 ---
